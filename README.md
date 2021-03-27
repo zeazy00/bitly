@@ -15,3 +15,10 @@ pip install -r requirements.txt
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
+
+### пример работы
+
+```
+D:\ZeazyGame\devman\bitly>python main.py https://www.youtube.com/watch?v=wdTeeMF7L7U
+https://bit.ly/3lY2YVy
+```
