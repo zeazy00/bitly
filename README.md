@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
 
-### пример работы
+### Пример работы
 
 ```
 D:\ZeazyGame\devman\bitly>python main.py https://www.youtube.com/watch?v=wdTeeMF7L7U
