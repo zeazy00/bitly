@@ -22,7 +22,7 @@ def get_total_clicks(input_url):
     url = f'https://api-ssl.bitly.com/v4/bitlinks/{parsed.netloc}{parsed.path}/clicks/summary'
     response = requests.get(url, headers=headers)
     response.raise_for_status()
-    return(response.json()["total_clicks"])
+    return(response.json["total_clicks"])
 
 def get_bitly_info(token,input_url):
     headers = {
