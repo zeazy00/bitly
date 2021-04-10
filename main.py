@@ -36,7 +36,7 @@ def get_bitly_info(token,input_url):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description = 'shorten link.')
+    parser = argparse.ArgumentParser(description='shorten link.')
     parser.add_argument("link")
 
     load_dotenv()
